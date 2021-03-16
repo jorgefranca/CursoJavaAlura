@@ -2,11 +2,13 @@
 public class Gerente extends Funcionario{
 
     private int senha;
-/*
+
+    //reescrita do metodo
     public double getBonificacao(){
-        return this.salario;
+        return super.salario;
+        //super indica que o atributo pertence a classe mae (Funcionario)
     }
-*/
+
     public void setSenha(int senha){
         this.senha = senha;
     }

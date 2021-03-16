@@ -33,5 +33,6 @@ public class FuncionarioTeste {
         
         boolean autenticou = gerente1.autenticar(1234);
         System.out.println("Gerente autenticado: " + autenticou);
+        System.out.println("Bonificacao: R$ "+ gerente1.getBonificacao());
    } 
 }
