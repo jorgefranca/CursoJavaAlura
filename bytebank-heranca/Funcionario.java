@@ -1,7 +1,8 @@
 public class Funcionario {
     private String nome;
     private String cpf;
-    protected double salario;
+    private double salario;
+    //protected double salario;
     //protected: modificador de visibilidade. permite que o atributo seja visto pela classe filha (Gerente)
 
     public double getBonificacao(){//bonificacao - funcionario comum: 10%
