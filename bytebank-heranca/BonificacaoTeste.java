@@ -9,20 +9,20 @@ public class BonificacaoTeste {
    public static void main(String[] args) {
       /*instanciando os funcionarios, todos com referencia na classe Funcionarios 
       (apesar dos objetos serem diferentes)*/
-      Funcionario funcionario1 = new Funcionario();
+   // Funcionario funcionario1 = new Funcionario(); //Classe abstrata
       Funcionario gerente1     = new Gerente();
       Funcionario editor1      = new EditorVideo();
       Funcionario designer1    = new Designer(); 
 
       // atribuir salario para cada funcionario
-      funcionario1.setSalario(1000.00);
+   // funcionario1.setSalario(1000.00);
       gerente1.setSalario(5000.00);
       editor1.setSalario(1500.00);
       designer1.setSalario(2000.00);
 
       //registrar os funcionarios
       ControleBonificacao controle = new ControleBonificacao();
-      controle.registra(funcionario1);
+   // controle.registra(funcionario1);
       controle.registra(gerente1);
       controle.registra(editor1);
       controle.registra(designer1);

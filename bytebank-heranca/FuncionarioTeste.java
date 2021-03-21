@@ -7,15 +7,15 @@
 */
 public class FuncionarioTeste {
    public static void main(String[] args) {
-        Funcionario funcionario1 = new Funcionario();
+      //   Funcionario funcionario1 = new Funcionario();
 
-        funcionario1.setNome("JORGE");
-        funcionario1.setCpf("222222222-2");
-        funcionario1.setSalario(3000.0);
+      //   funcionario1.setNome("JORGE");
+      //   funcionario1.setCpf("222222222-2");
+      //   funcionario1.setSalario(3000.0);
 
-        System.out.println("--------------------");
-        System.out.println("NOME: " + funcionario1.getNome());
-        System.out.println("Bonificacao: R$ " + funcionario1.getBonificacao());
+      //   System.out.println("--------------------");
+      //   System.out.println("NOME: " + funcionario1.getNome());
+      //   System.out.println("Bonificacao: R$ " + funcionario1.getBonificacao());
 
 
         //instanciar um funcionario do tipo gerente
